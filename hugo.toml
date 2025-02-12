@@ -1,3 +1,4 @@
 baseURL = 'https://junoaii.com/'
 languageCode = 'en-us'
 title = 'JunoAI Innovations'
+theme = 'tella'
