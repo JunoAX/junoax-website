@@ -23,7 +23,7 @@ enableRobotsTXT = true
   mainSections = ['blog']
 
   googleFonts = true
-  favicon = "/img/logo/favicon.ico"
+  #favicon = "/img/logo/favicon-32x32.png"
 
   primaryColor = "#1E3A8A"  # Deep Blue for a futuristic AI feel
   secondaryColor = "#6B7280" # Neutral Gray
@@ -31,13 +31,13 @@ enableRobotsTXT = true
   highlightColor = "#22D3EE" # Electric Blue for AI-driven energy
 
   footerText = "© 2025 JunoAI Innovations. All Rights Reserved."
-  contact_email = "tom@junoaii.com"
+  contact_email = "contact@junoax.com"
   contact_phone = "+1-404-494-0280"
   location = "Headquartered in Georgia, USA"
 
   [params.logo]
     main = "img/logo/logo.png"
-    alt = "JunoAII Logo"
+    alt = "JunoAX Logo"
 
     # The size parameter is the class name of tailwindcss
     # https://tailwindcss.com/
@@ -50,16 +50,16 @@ enableRobotsTXT = true
     #If you want to use FontAwesome, set this parameter to true.
     fontawesome = true
 
-#  [params.homepage_meta_tags]
-#    meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-#    meta_og_title = "Tella"
-#    meta_og_type = "website"
-#    meta_og_url = "https://tella.pages.dev"
-#    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
-#    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-#    meta_twitter_card = "summary_large_image"
-#    meta_twitter_site = "@username"
-#    meta_twitter_creator = "@username"
+  [params.homepage_meta_tags]
+    meta_description = "JunoAI Innovations | AI-powered automation, machine learning, and cloud solutions to drive business innovation – Hosted on JunoAX.com"
+    meta_og_title = "JunoAI Innovations"
+    meta_og_type = "website"
+    meta_og_url = "https://junoax.com"
+    meta_og_image = "https://junoax.com/img/logo/biglogo.svg"
+    meta_og_description = "JunoAI Innovations | AI-powered automation, machine learning, and cloud solutions to drive business innovation – Hosted on JunoAX.com"
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@JunoaiI69007"
+    meta_twitter_creator = "@unoaiI69007"
 
 [menu]
 
