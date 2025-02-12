@@ -1,4 +1,3 @@
-baseURL = 'https://junoaii.com/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'JunoAI Innovations'
-theme = 'tella'
+title = 'My New Hugo Site'
