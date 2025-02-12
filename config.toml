@@ -1,6 +1,6 @@
-baseURL = "https://example.com"
-title = "Tella"
-author = "username"
+baseURL = "https://junoaii.com"
+title = "JunoAI Innovations"
+# author = "JunoAI Innovations"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -17,22 +17,24 @@ enableRobotsTXT = true
 #disqusShortname = ""
 
 [params]
-
+  author = "JunoAI Innovations"
+  description = "Powering the Future with Intelligent Automation"
   showBlog = true
   mainSections = ['blog']
 
   googleFonts = true
+  favicon = "/img/logo/favicon.ico"
 
   [params.logo]
-    main = "img/logo/logo.svg"
-    alt = "Tella Logo"
+    main = "img/logo/logo.png"
+    alt = "JunoAII Logo"
 
     # The size parameter is the class name of tailwindcss
     # https://tailwindcss.com/
     size = "h-14"
 
   [params.site]
-    name = "Tella"
+    name = "JunoAI Innovations"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
