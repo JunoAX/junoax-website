@@ -25,6 +25,16 @@ enableRobotsTXT = true
   googleFonts = true
   favicon = "/img/logo/favicon.ico"
 
+  primaryColor = "#1E3A8A"  # Deep Blue for a futuristic AI feel
+  secondaryColor = "#6B7280" # Neutral Gray
+  accentColor = "#38BDF8"  # Cyan for modern tech vibes
+  highlightColor = "#22D3EE" # Electric Blue for AI-driven energy
+
+  footerText = "© 2025 JunoAI Innovations. All Rights Reserved."
+  contact_email = "tom@junoaii.com"
+  contact_phone = "+1-404-494-0280"
+  location = "Headquartered in Georgia, USA"
+
   [params.logo]
     main = "img/logo/logo.png"
     alt = "JunoAII Logo"
@@ -40,51 +50,63 @@ enableRobotsTXT = true
     #If you want to use FontAwesome, set this parameter to true.
     fontawesome = true
 
-  [params.homepage_meta_tags]
-    meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_og_title = "Tella"
-    meta_og_type = "website"
-    meta_og_url = "https://tella.pages.dev"
-    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
-    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_twitter_card = "summary_large_image"
-    meta_twitter_site = "@username"
-    meta_twitter_creator = "@username"
+#  [params.homepage_meta_tags]
+#    meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+#    meta_og_title = "Tella"
+#    meta_og_type = "website"
+#    meta_og_url = "https://tella.pages.dev"
+#    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+#    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+#    meta_twitter_card = "summary_large_image"
+#    meta_twitter_site = "@username"
+#    meta_twitter_creator = "@username"
 
 [menu]
 
-  [[menu.main]]
-    identifier = "products"
-    name = "Products"
-    url = "/products/"
-    weight = 1
+#  [[menu.main]]
+#    identifier = "products"
+#    name = "Products"
+#    url = "/products/"
+#    weight = 1
 
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 2
+  [[main.menu]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
     weight = 3
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 5
 
   # Footer Menu
-  [[menu.footer]]
-    name = "Home"
-    url = "/"
-      weight = 1
+#  [[menu.footer]]
+#    name = "Home"
+#    url = "/"
+#      weight = 1
 
-  [[menu.footer]]
-    name = "Github"
-    url = "https://github.com/opera7133/tella"
-    pre = "<i class='icon-github text-2xl'></i>"
-      weight = 2
+#  [[menu.footer]]
+#    name = "Github"
+#    url = "https://github.com/opera7133/tella"
+#    pre = "<i class='icon-github text-2xl'></i>"
+#      weight = 2
