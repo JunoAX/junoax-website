@@ -3,6 +3,7 @@ title: "Agent Experience: The Next Evolution in AI/ML"
 date: 2025-02-12
 author: "Tom Gamull"
 description: "Exploring how Agent Experience (AX) is shaping AI/ML, contrasting it with User Experience (UX) and Developer Experience (DX)."
+image: "img/ai-network-graphic.png"
 categories: ["AI", "Machine Learning", "Agent Experience"]
 tags: ["Agent Experience", "AI/ML", "User Experience", "Developer Experience"]
 ---

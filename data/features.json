@@ -1,18 +1,17 @@
 [
   {
-    "title": "Simple",
-    "description": "All the bare necessities are there.",
+    "title": "AI-Powered Automation",
+    "description": "Streamline your business with cutting-edge AI automation, optimizing workflows and reducing manual tasks.",
     "icon": "icon-desktop_windows"
   },
   {
-    "title": "Fast",
-    "description": "Light weight and fast loading speed.",
+    "title": "Predictive Insights",
+    "description": "Leverage machine learning and analytics to make data-driven decisions with confidence and accuracy.",
     "icon": "icon-lightbulb_outline"
   },
   {
-    "title": "Github",
-    "description": "Please fork the Github repository and contribute to this theme!",
-    "icon": "icon-github",
-    "link": "https://github.com/opera7133/tella"
+    "title": "Cloud-First Security",
+    "description": "Secure and scalable AI solutions hosted in the cloud, ensuring reliability and compliance.",
+    "icon": "icon-person"
   }
 ]
