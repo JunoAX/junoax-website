@@ -1,4 +1,102 @@
-baseURL = 'https://junoaii.com/'
-languageCode = 'en-us'
-title = 'JunoAI Innovations'
-theme = 'tella'
+
+baseURL = "https://junoaii.com"
+title = "JunoAI Innovations"
+author = "JunoAI Innovations"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+googleAnalytics = "G-RJWRJD7LS1"
+
+# Disqus Comment System
+disqusShortname = "junoax"
+
+[markup.goldmark.renderer]
+  unsafe = true  # Allow raw HTML for SEO enhancements
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+
+  showBlog = true
+  mainSections = ['blog']
+
+  googleFonts = true
+
+  favicon = "/favicon.ico"
+
+  primaryColor = "#1E3A8A"  # Deep Blue for a futuristic AI feel
+  secondaryColor = "#6B7280" # Neutral Gray
+  accentColor = "#38BDF8"  # Cyan for modern tech vibes
+  highlightColor = "#22D3EE" # Electric Blue for AI-driven energy
+
+  [params.logo]
+    main = "img/logo/logo.svg"
+    alt = "JunoAX Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "JunoAI Innovations"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "JunoAI Innovations | AI-powered automation, machine learning, and cloud solutions to drive business innovation – Hosted on JunoAX.com"
+    meta_og_title = "JunoAI Innovations"
+    meta_og_type = "website"
+    meta_og_url = "https://junoax.com"
+    meta_og_image = "https://junoax.com/img/social_media_preview.jpg"
+    meta_og_description = "JunoAI Innovations | AI-powered automation, machine learning, and cloud solutions to drive business innovation – Hosted on JunoAX.com"
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@JunoaiI69007"
+    meta_twitter_creator = "@unoaiI69007"
+
+[menu]
+
+ [[menu.main]]
+   identifier = "products"
+   name = "Products"
+   url = "/products/"
+   weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/opera7133/tella"
+    pre = "<i class='icon-github text-2xl'></i>"
+      weight = 2
