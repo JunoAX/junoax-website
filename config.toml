@@ -29,13 +29,6 @@ disqusShortname = "junoax"
 
   googleFonts = true
 
-  author = "JunoAI Innovations"
-  # description = "Powering the Future with Intelligent Automation"
-  description = "JunoAI Innovations | AI-powered automation, machine learning, and cloud solutions to drive business innovation – Hosted on JunoAX.com"
-  showBlog = true
-  mainSections = ['blog']
-
-  googleFonts = true
   favicon = "/favicon.ico"
 
   primaryColor = "#1E3A8A"  # Deep Blue for a futuristic AI feel
@@ -77,12 +70,6 @@ disqusShortname = "junoax"
    url = "/products/"
    weight = 1
 
-  [[main.menu]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
@@ -112,9 +99,3 @@ disqusShortname = "junoax"
     url = "https://github.com/opera7133/tella"
     pre = "<i class='icon-github text-2xl'></i>"
       weight = 2
-
-
-  # footerText = "© 2025 JunoAI Innovations. All Rights Reserved."
-  # contact_email = "contact@junoax.com"
-  # contact_phone = "+1-404-494-0280"
-  # location = "Headquartered in Georgia, USA"
