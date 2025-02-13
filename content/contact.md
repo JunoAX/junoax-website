@@ -1,7 +1,13 @@
 ---
-title: 'Contact'
+title: 'Contact Us'
+description: "Reach out to JunoAI Innovations for AI and IT solutions."
 ---
 
-To contact us, please fill out the form below.
+## Let's Connect
 
-{{< form >}}
+We’d love to hear from you! Whether you need AI-powered automation, cloud solutions, or IT support, our team is ready to help.
+
+📍 Headquartered in Georgia, USA
+📧 Email: [contact@junoax.com](mailto:contact@junoax.com)
+
+{{< contact-form >}}

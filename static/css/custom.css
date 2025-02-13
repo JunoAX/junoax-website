@@ -34,3 +34,44 @@
     width: 100%;
     border-radius: 10px;
   }
+
+  form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.primary {
+    background: var(--highlight-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+button.primary:hover {
+    background: var(--primary-color);
+}

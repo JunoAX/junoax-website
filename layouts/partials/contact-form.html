@@ -1,0 +1,16 @@
+<form id="contact-form" action="https://formspree.io/f/mvgzbwen?next=https://junoax.com/thank-you" method="POST">
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Tell us how we can help"></textarea>
+    </div>
+    <input type="hidden" name="_subject" value="New Contact Form Submission!">
+    <button type="submit" class="button primary" onclick="onSubmit(event)">Send Message</button>
+</form>
