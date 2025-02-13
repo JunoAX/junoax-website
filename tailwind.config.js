@@ -1,5 +1,14 @@
 module.exports = {
-  content: ["./**/*.html", "./**/*.md", "./config.toml"],
+  content: [
+    "./layouts/**/*.html",
+    "./content/**/*.md",
+    "./themes/**/layouts/**/*.html",
+    "./static/**/*.html",
+    "./assets/**/*.js",
+    "./assets/**/*.vue",
+    "./assets/**/*.jsx",
+    "./config.toml"
+  ],
   theme: {
     extend: {
       colors: {
