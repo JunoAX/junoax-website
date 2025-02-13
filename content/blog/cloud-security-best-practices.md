@@ -2,6 +2,7 @@
 title: "Cloud Security: Best Practices for AI-Powered Organizations"
 date: 2025-02-07
 author: "Tom Gamull"
+image: "img/cloud-security.jpg"
 description: "Key cloud security strategies to protect AI-driven enterprises from cyber threats."
 categories: ["Cloud Security", "AI", "Cybersecurity"]
 tags: ["Cloud Security", "AI Protection", "Best Practices"]
