@@ -1,4 +1,4 @@
-<form id="contact-form" action="https://formspree.io/f/mvgzbwen" method="POST">
+<form id="contact-form" action="https://formspree.io/f/mvgzbwen?next=https://junoax.com/thank-you" method="POST">
     <div class="form-group">
         <label for="name">Your Name</label>
         <input type="text" id="name" name="name" required placeholder="Enter your name">
@@ -11,5 +11,5 @@
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="4" required placeholder="Tell us how we can help"></textarea>
     </div>
-    <button type="submit" class="button primary">Send Message</button>
+    <button type="submit" class="button primary" onclick="onSubmit(event)">Send Message</button>
 </form>
