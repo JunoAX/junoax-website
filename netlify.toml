@@ -2,6 +2,9 @@
 publish = "public"
 command = "git submodule update --remote --merge && npm run build"
 
+[build.processing]
+    skip_processing = true
+
 [context.production.environment]
 HUGO_VERSION = "0.143.1"
 HUGO_ENV = "production"
