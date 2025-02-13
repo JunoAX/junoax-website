@@ -7,7 +7,10 @@ module.exports = {
     "./assets/**/*.js",
     "./assets/**/*.vue",
     "./assets/**/*.jsx",
-    "./config.toml"
+    "./config.toml",
+    "!./node_modules/**/*",   // Exclude node_modules
+    "!./themes/**/*",         // Exclude themes directory
+    "!./public/**/*"          // Exclude public directory
   ],
   theme: {
     extend: {

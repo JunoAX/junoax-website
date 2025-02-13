@@ -22,5 +22,37 @@ _testmain.go
 *.exe
 *.test
 
-/public
+# Hugo build output
+public/
+resources/
+dist/
+
+# Hugo cache and temp files
+.hugo_build.lock
+.cache/
+hugo_stats.json
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+*.log
+
+# PostCSS and Tailwind cache
+.postcss-cache/
+.tailwind/
+
+# Themes (if you use Git submodules)
+themes/*/
+!themes/tella/   # Keep your Tella theme (if modified)
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
