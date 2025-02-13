@@ -7,6 +7,7 @@ HUGO_VERSION = "0.143.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 GO_VERSION=1.23.6
+NODE_VERSION=23
 
 [context.split1]
 command = "npm run build"
