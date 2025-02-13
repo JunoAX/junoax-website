@@ -1,6 +1,6 @@
 baseURL = "https://junoaii.com"
 title = "JunoAI Innovations"
-# author = "JunoAI Innovations"
+author = "JunoAI Innovations"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -23,6 +23,12 @@ disqusShortname = "junoax"
   home = ["HTML", "RSS", "JSON"]
 
 [params]
+
+  showBlog = true
+  mainSections = ['blog']
+
+  googleFonts = true
+
   author = "JunoAI Innovations"
   # description = "Powering the Future with Intelligent Automation"
   description = "JunoAI Innovations | AI-powered automation, machine learning, and cloud solutions to drive business innovation – Hosted on JunoAX.com"
@@ -37,13 +43,8 @@ disqusShortname = "junoax"
   accentColor = "#38BDF8"  # Cyan for modern tech vibes
   highlightColor = "#22D3EE" # Electric Blue for AI-driven energy
 
-  footerText = "© 2025 JunoAI Innovations. All Rights Reserved."
-  contact_email = "contact@junoax.com"
-  contact_phone = "+1-404-494-0280"
-  location = "Headquartered in Georgia, USA"
-
   [params.logo]
-    main = "img/logo/logo.png"
+    main = "img/logo/logo.svg"
     alt = "JunoAX Logo"
 
     # The size parameter is the class name of tailwindcss
@@ -70,11 +71,11 @@ disqusShortname = "junoax"
 
 [menu]
 
-#  [[menu.main]]
-#    identifier = "products"
-#    name = "Products"
-#    url = "/products/"
-#    weight = 1
+ [[menu.main]]
+   identifier = "products"
+   name = "Products"
+   url = "/products/"
+   weight = 1
 
   [[main.menu]]
     identifier = "home"
@@ -83,37 +84,43 @@ disqusShortname = "junoax"
     weight = 1
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "services"
-    name = "Services"
-    url = "/services/"
-    weight = 3
-
-  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/blog/"
-    weight = 4
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
     weight = 5
 
   # Footer Menu
-#  [[menu.footer]]
-#    name = "Home"
-#    url = "/"
-#      weight = 1
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
 
-#  [[menu.footer]]
-#    name = "Github"
-#    url = "https://github.com/opera7133/tella"
-#    pre = "<i class='icon-github text-2xl'></i>"
-#      weight = 2
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/opera7133/tella"
+    pre = "<i class='icon-github text-2xl'></i>"
+      weight = 2
+
+
+  # footerText = "© 2025 JunoAI Innovations. All Rights Reserved."
+  # contact_email = "contact@junoax.com"
+  # contact_phone = "+1-404-494-0280"
+  # location = "Headquartered in Georgia, USA"
