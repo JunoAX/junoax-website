@@ -36,7 +36,7 @@ disqusShortname = "junoax"
   mainSections = ['blog']
 
   googleFonts = true
-  favicon = "/img/favicon-32x32.png"
+  favicon = "/favicon.ico"
 
   primaryColor = "#1E3A8A"  # Deep Blue for a futuristic AI feel
   secondaryColor = "#6B7280" # Neutral Gray
