@@ -101,12 +101,6 @@ disqusShortname = "junoax"
     url = "/contact/"
     weight = 4
 
-  [[menu.main]]
-    identifier = "services"
-    name = "Services"
-    url = "/services/"
-    weight = 5
-
   # Footer Menu
   [[menu.footer]]
     name = "Home"
