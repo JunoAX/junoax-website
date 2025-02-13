@@ -2,6 +2,7 @@
 title: 'Contact Us'
 description: "Reach out to JunoAI Innovations for AI and IT solutions."
 ---
+{{< captcha >}}
 
 ## Let's Connect
 
