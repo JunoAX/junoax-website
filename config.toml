@@ -11,19 +11,26 @@ enableRobotsTXT = true
 #hasCJKLanguage = true
 
 # If you're using Google Analytics, you can enable this feature.
-#googleAnalytics = "UA-12345678-1"
+googleAnalytics = "G-RJWRJD7LS1"
 
 # Disqus Comment System
-#disqusShortname = ""
+disqusShortname = "junoax"
+
+[markup.goldmark.renderer]
+  unsafe = true  # Allow raw HTML for SEO enhancements
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
   author = "JunoAI Innovations"
-  description = "Powering the Future with Intelligent Automation"
+  # description = "Powering the Future with Intelligent Automation"
+  description = "JunoAI Innovations | AI-powered automation, machine learning, and cloud solutions to drive business innovation – Hosted on JunoAX.com"
   showBlog = true
   mainSections = ['blog']
 
   googleFonts = true
-  #favicon = "/img/logo/favicon-32x32.png"
+  favicon = "/img/favicon-32x32.png"
 
   primaryColor = "#1E3A8A"  # Deep Blue for a futuristic AI feel
   secondaryColor = "#6B7280" # Neutral Gray
@@ -55,7 +62,7 @@ enableRobotsTXT = true
     meta_og_title = "JunoAI Innovations"
     meta_og_type = "website"
     meta_og_url = "https://junoax.com"
-    meta_og_image = "https://junoax.com/img/logo/biglogo.svg"
+    meta_og_image = "https://junoax.com/img/social_media_preview.jpg"
     meta_og_description = "JunoAI Innovations | AI-powered automation, machine learning, and cloud solutions to drive business innovation – Hosted on JunoAX.com"
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@JunoaiI69007"
