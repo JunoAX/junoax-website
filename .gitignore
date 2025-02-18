@@ -19,6 +19,8 @@ _cgo_export.*
 
 _testmain.go
 
+_vendor/
+
 # Themes (if you use Git submodules)
 themes/*/
 !themes/tella/   # Keep your Tella theme (if modified)
