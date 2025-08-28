@@ -3,7 +3,7 @@ title: "Choosing the Right Tech Stack for Your Small Business"
 date: 2025-02-12
 author: "JunoAI Team"
 description: "Practical advice on selecting technologies that scale with your business without breaking the bank."
-image: "img/ai-network-graphic.png"
+image: "img/services.jpg"
 categories: ["Small Business", "Technology"]
 tags: ["Tech Stack", "Small Business", "Cost-Effective", "Cloud"]
 draft: false

@@ -2,7 +2,7 @@
 title: "Why We're Building HousePoints: A Personal Journey"
 date: 2025-01-15
 author: "Tom Gamull"
-image: "img/ai-network-graphic.png"
+image: "img/hero.jpg"
 description: "The story behind HousePoints - how a family's daily struggles inspired a solution for everyone."
 categories: ["Product Development", "Family Tech"]
 tags: ["HousePoints", "Product Launch", "Parenting", "Technology"]

@@ -1,14 +1,35 @@
 ---
 title: 'Contact Us'
-description: "Reach out to JunoAI Innovations for AI and IT solutions."
+description: "Get in touch with JunoAI Innovations for IT consulting or to learn about HousePoints."
 ---
-{{< captcha >}}
 
 ## Let's Connect
 
-We’d love to hear from you! Whether you need AI-powered automation, cloud solutions, or IT support, our team is ready to help.
+Have questions about our IT consulting services? Interested in joining the HousePoints beta? We'd love to hear from you.
 
-📍 Headquartered in Georgia, USA
-📧 Email: [contact@junoax.com](mailto:contact@junoax.com)
+### How Can We Help?
+
+**IT Consulting Services**
+- Technology strategy and planning
+- Cloud migration assistance  
+- Security assessments
+- Custom software development
+
+**HousePoints Inquiries**
+- Join the beta testing program
+- Partnership opportunities
+- Feature suggestions
+- General questions
+
+### Get In Touch
+
+📍 **Based in:** Georgia, USA  
+📧 **General Inquiries:** [info@junoax.com](mailto:info@junoax.com)  
+📧 **HousePoints Beta:** [housepoints@junoax.com](mailto:housepoints@junoax.com)  
+📧 **IT Consulting:** [consulting@junoax.com](mailto:consulting@junoax.com)  
+
+### Office Hours
+Monday - Friday: 9:00 AM - 5:00 PM EST  
+*We typically respond within 1 business day*
 
 {{< contact-form >}}

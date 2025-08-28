@@ -2,7 +2,7 @@
 title: "How Predictive Analytics is Changing Decision-Making"
 date: 2025-02-10
 author: "Sarah Kim"
-image: "img/data-analytics.jpg"
+image: "img/blog-header.jpg"
 description: "Understanding the role of predictive analytics in transforming business strategy and decision-making."
 categories: ["AI", "Predictive Analytics", "Decision-Making"]
 tags: ["Predictive Analytics", "AI Insights", "Data-Driven Decisions"]

@@ -2,7 +2,7 @@
 title: "The Future of AI Automation in Business"
 date: 2025-02-02
 author: "JunoAI Team"
-image: "img/future-ai-business.jpg"
+image: "img/about.jpg"
 description: "Exploring how AI-driven automation is transforming industries and shaping the future of business operations."
 categories: ["AI", "Automation", "Business"]
 tags: ["AI Automation", "Machine Learning", "Business Transformation"]
