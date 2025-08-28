@@ -2,7 +2,7 @@
 title: "Cloud Security for Small Businesses: A Practical Guide"
 date: 2025-01-20
 author: "Alex Chen"
-image: "img/cloud-security.jpg"
+image: "img/cloud-security-shield.svg"
 description: "Real-world cloud security advice for small businesses - no enterprise budget required."
 categories: ["Cloud Security", "Small Business"]
 tags: ["Cloud Security", "AWS", "Cost-Effective Security", "IT Consulting"]

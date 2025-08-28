@@ -1,6 +1,6 @@
 ---
 title: "Why We're Building HousePoints: A Personal Journey"
-date: 2025-01-15
+date: 2025-08-28
 author: "Tom Gamull"
 image: "img/family-chores.svg"
 description: "The story behind HousePoints - how a family's daily struggles inspired a solution for everyone."
