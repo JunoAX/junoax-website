@@ -1,0 +1,31 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F3F4F6"/>
+  <rect x="50" y="50" width="1100" height="530" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="600" y="150" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#1E3A8A">HousePoints</text>
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#6B7280">Family Chore Management System</text>
+  
+  <!-- Icons representing family activities -->
+  <g transform="translate(300, 280)">
+    <rect x="0" y="0" width="120" height="120" rx="10" fill="#EBF8FF" stroke="#38BDF8" stroke-width="2"/>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">🏠</text>
+  </g>
+  
+  <g transform="translate(450, 280)">
+    <rect x="0" y="0" width="120" height="120" rx="10" fill="#F0FDF4" stroke="#22D3EE" stroke-width="2"/>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">✓</text>
+  </g>
+  
+  <g transform="translate(600, 280)">
+    <rect x="0" y="0" width="120" height="120" rx="10" fill="#FEF3C7" stroke="#38BDF8" stroke-width="2"/>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">⭐</text>
+  </g>
+  
+  <g transform="translate(750, 280)">
+    <rect x="0" y="0" width="120" height="120" rx="10" fill="#FECACA" stroke="#38BDF8" stroke-width="2"/>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">👨‍👩‍👧‍👦</text>
+  </g>
+  
+  <text x="600" y="480" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#6B7280">Making Chores Fun for the Whole Family</text>
+</svg>
