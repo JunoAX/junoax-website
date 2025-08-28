@@ -1,10 +1,12 @@
 [
   {
-    "title": "JunoAI Innovations",
+    "title": "Strategic Technology Consulting & Innovation",
+    "subtitle": "Transforming businesses through technology excellence",
     "image": "img/slide/slide01.jpg"
   },
   {
-    "title": "Building HousePoints - Family Chore Management Reimagined",
+    "title": "HousePoints: Revolutionary Family Management Platform",
+    "subtitle": "Currently in beta testing with exceptional early results",
     "image": "img/slide/slide02.jpg",
     "color": "text-black"
   }

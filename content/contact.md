@@ -1,35 +1,51 @@
 ---
-title: 'Contact Us'
-description: "Get in touch with JunoAI Innovations for IT consulting or to learn about HousePoints."
+title: 'Contact'
+description: "Connect with JunoAI Innovations for technology consulting and partnership opportunities."
 ---
 
-## Let's Connect
+# Contact JunoAI Innovations
 
-Have questions about our IT consulting services? Interested in joining the HousePoints beta? We'd love to hear from you.
+## How We Can Help
 
-### How Can We Help?
+JunoAI Innovations provides strategic technology consulting and innovative software solutions to organizations seeking competitive advantage through digital transformation. We welcome inquiries regarding our consulting services, HousePoints platform, and partnership opportunities.
 
-**IT Consulting Services**
-- Technology strategy and planning
-- Cloud migration assistance  
-- Security assessments
-- Custom software development
+### Consulting Services
 
-**HousePoints Inquiries**
-- Join the beta testing program
-- Partnership opportunities
-- Feature suggestions
-- General questions
+For organizations seeking technology guidance, we offer comprehensive consulting across infrastructure optimization, cloud strategy, security architecture, and digital transformation. Our engagements range from strategic advisory to hands-on implementation support.
 
-### Get In Touch
+### HousePoints Platform
 
-📍 **Based in:** Georgia, USA  
-📧 **General Inquiries:** [info@junoax.com](mailto:info@junoax.com)  
-📧 **HousePoints Beta:** [housepoints@junoax.com](mailto:housepoints@junoax.com)  
-📧 **IT Consulting:** [consulting@junoax.com](mailto:consulting@junoax.com)  
+Families and organizations interested in our revolutionary task management platform can apply for early access consideration. We also welcome partnership inquiries from education technology companies, family service providers, and distribution partners.
 
-### Office Hours
-Monday - Friday: 9:00 AM - 5:00 PM EST  
-*We typically respond within 1 business day*
+### Partnership Opportunities
+
+We actively pursue strategic partnerships that create mutual value. Whether you represent a technology vendor, service provider, or complementary solution, we welcome discussions about collaboration opportunities.
+
+## Contact Information
+
+**General Inquiries**  
+info@junoax.com
+
+**Consulting Services**  
+consulting@junoax.com
+
+**HousePoints Platform**  
+housepoints@junoax.com
+
+**Partnership Opportunities**  
+partnerships@junoax.com
+
+## Response Commitment
+
+We acknowledge all inquiries within one business day and provide substantive responses within 48 hours. For urgent matters, please indicate priority status in your communication.
+
+## Location
+
+JunoAI Innovations, LLC  
+Georgia, United States
 
 {{< contact-form >}}
+
+---
+
+*JunoAI Innovations, LLC. All inquiries are confidential and subject to our privacy policy.*
