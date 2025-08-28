@@ -99,15 +99,21 @@ disqusShortname = "junoax"
     url = "/"
       weight = 1
 
-  # [[menu.footer]]
-  #   name = "Github"
-  #   url = "https://github.com/opera7133/tella"
-  #   pre = "<i class='icon-github text-2xl'></i>"
-  #     weight = 2
-
   [[menu.footer]]
     identifier = "privacy"
-    name = "Privacy"
+    name = "Privacy Policy"
     url = "/privacy/"
-        weight = 10
+        weight = 2
+
+  [[menu.footer]]
+    identifier = "terms"
+    name = "Terms of Service"
+    url = "/terms/"
+        weight = 3
+
+  [[menu.footer]]
+    identifier = "data-deletion"
+    name = "Data Deletion"
+    url = "/data-deletion/"
+        weight = 4
 
