@@ -1,0 +1,102 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+  
+  <!-- Dashboard Container -->
+  <rect x="50" y="50" width="700" height="500" rx="10" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="700" height="70" rx="10" fill="#3b82f6"/>
+  <text x="100" y="95" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">HousePoints Dashboard</text>
+  <text x="600" y="95" font-family="Arial, sans-serif" font-size="18" fill="white">Welcome, Mom!</text>
+  
+  <!-- Stats Cards -->
+  <g transform="translate(80, 150)">
+    <!-- Card 1 -->
+    <rect width="150" height="100" rx="8" fill="#10b981" opacity="0.1"/>
+    <rect width="150" height="100" rx="8" fill="none" stroke="#10b981" stroke-width="2"/>
+    <text x="75" y="40" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#10b981">247</text>
+    <text x="75" y="65" font-family="Arial" font-size="14" text-anchor="middle" fill="#6b7280">Points Earned</text>
+    <circle cx="75" cy="80" r="3" fill="#10b981"/>
+    <text x="85" y="85" font-family="Arial" font-size="12" fill="#10b981">+12%</text>
+  </g>
+  
+  <g transform="translate(250, 150)">
+    <!-- Card 2 -->
+    <rect width="150" height="100" rx="8" fill="#3b82f6" opacity="0.1"/>
+    <rect width="150" height="100" rx="8" fill="none" stroke="#3b82f6" stroke-width="2"/>
+    <text x="75" y="40" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#3b82f6">18/24</text>
+    <text x="75" y="65" font-family="Arial" font-size="14" text-anchor="middle" fill="#6b7280">Tasks Done</text>
+    <rect x="20" y="75" width="110" height="8" rx="4" fill="#e5e7eb"/>
+    <rect x="20" y="75" width="82" height="8" rx="4" fill="#3b82f6"/>
+  </g>
+  
+  <g transform="translate(420, 150)">
+    <!-- Card 3 -->
+    <rect width="150" height="100" rx="8" fill="#f59e0b" opacity="0.1"/>
+    <rect width="150" height="100" rx="8" fill="none" stroke="#f59e0b" stroke-width="2"/>
+    <text x="75" y="40" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#f59e0b">7</text>
+    <text x="75" y="65" font-family="Arial" font-size="14" text-anchor="middle" fill="#6b7280">Day Streak</text>
+    <text x="75" y="85" font-family="Arial" font-size="20" text-anchor="middle">🔥</text>
+  </g>
+  
+  <!-- Chore List -->
+  <g transform="translate(80, 280)">
+    <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#1f2937">Today's Chores</text>
+    
+    <!-- List Items -->
+    <g transform="translate(0, 20)">
+      <rect y="10" width="300" height="45" rx="6" fill="#f9fafb"/>
+      <circle cx="25" cy="32" r="8" fill="#10b981"/>
+      <text x="23" y="37" font-family="Arial" font-size="12" fill="white">✓</text>
+      <text x="50" y="30" font-family="Arial" font-size="14" fill="#1f2937">Clean Kitchen</text>
+      <text x="50" y="45" font-family="Arial" font-size="12" fill="#6b7280">Completed by James</text>
+      <text x="260" y="35" font-family="Arial" font-size="14" fill="#10b981">+15</text>
+    </g>
+    
+    <g transform="translate(0, 70)">
+      <rect y="10" width="300" height="45" rx="6" fill="#fef3c7"/>
+      <circle cx="25" cy="32" r="8" fill="#f59e0b"/>
+      <text x="50" y="30" font-family="Arial" font-size="14" fill="#1f2937">Take Out Trash</text>
+      <text x="50" y="45" font-family="Arial" font-size="12" fill="#6b7280">Assigned to Mo</text>
+      <text x="260" y="35" font-family="Arial" font-size="14" fill="#6b7280">10 pts</text>
+    </g>
+    
+    <g transform="translate(0, 130)">
+      <rect y="10" width="300" height="45" rx="6" fill="#f9fafb"/>
+      <circle cx="25" cy="32" r="8" fill="#e5e7eb"/>
+      <text x="50" y="30" font-family="Arial" font-size="14" fill="#1f2937">Feed Pets</text>
+      <text x="50" y="45" font-family="Arial" font-size="12" fill="#6b7280">Assigned to Gus</text>
+      <text x="260" y="35" font-family="Arial" font-size="14" fill="#6b7280">5 pts</text>
+    </g>
+  </g>
+  
+  <!-- Leaderboard -->
+  <g transform="translate(420, 280)">
+    <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#1f2937">Weekly Leaders</text>
+    
+    <g transform="translate(0, 30)">
+      <rect width="250" height="180" rx="6" fill="#f9fafb"/>
+      
+      <!-- First Place -->
+      <text x="20" y="35" font-family="Arial" font-size="24">🥇</text>
+      <text x="55" y="35" font-family="Arial" font-size="14" font-weight="bold" fill="#1f2937">James</text>
+      <text x="200" y="35" font-family="Arial" font-size="14" fill="#10b981">142 pts</text>
+      
+      <!-- Second Place -->
+      <text x="20" y="75" font-family="Arial" font-size="24">🥈</text>
+      <text x="55" y="75" font-family="Arial" font-size="14" font-weight="bold" fill="#1f2937">Mo</text>
+      <text x="200" y="75" font-family="Arial" font-size="14" fill="#3b82f6">128 pts</text>
+      
+      <!-- Third Place -->
+      <text x="20" y="115" font-family="Arial" font-size="24">🥉</text>
+      <text x="55" y="115" font-family="Arial" font-size="14" font-weight="bold" fill="#1f2937">Gus</text>
+      <text x="200" y="115" font-family="Arial" font-size="14" fill="#f59e0b">115 pts</text>
+      
+      <!-- Fourth Place -->
+      <text x="20" y="155" font-family="Arial" font-size="16" fill="#6b7280">4</text>
+      <text x="55" y="155" font-family="Arial" font-size="14" fill="#6b7280">John</text>
+      <text x="200" y="155" font-family="Arial" font-size="14" fill="#6b7280">98 pts</text>
+    </g>
+  </g>
+</svg>

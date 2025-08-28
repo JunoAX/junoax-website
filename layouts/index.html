@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="{{ or .Site.Language.Lang "en" }}">
+
+<head>
+    {{- partial "head.html" . -}}
+    <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
+    <meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
+    <meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
+    <meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
+    <meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
+    <meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
+    <meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
+    <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
+    <meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+</head>
+
+<body>
+    {{- partial "alert.html" . -}}
+    {{- partial "header.html" . -}}
+    <div class="scroll-top rounded-full">
+        <span class="icon-keyboard_arrow_up text-2xl"></span>
+    </div>
+    
+    <!-- Hero Section with Slide -->
+    {{- partial "slide.html" . -}}
+    
+    <!-- Value Proposition Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto max-w-6xl px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Transform Your Business with Strategic Technology</h2>
+                <p class="text-xl text-gray-600">Proven expertise. Measurable results. Your success, our commitment.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="text-5xl text-blue-600 mb-4">15+</div>
+                    <h3 class="text-xl font-semibold mb-2">Years Combined Experience</h3>
+                    <p class="text-gray-600">Deep expertise across enterprise technology and software development</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl text-blue-600 mb-4">32%</div>
+                    <h3 class="text-xl font-semibold mb-2">Average Cost Reduction</h3>
+                    <p class="text-gray-600">Typical IT operational savings through our optimization strategies</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl text-blue-600 mb-4">94%</div>
+                    <h3 class="text-xl font-semibold mb-2">Client Satisfaction</h3>
+                    <p class="text-gray-600">Consistently exceeding expectations with on-time delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    {{- partial "strip.html" . -}}
+    
+    <!-- HousePoints Feature Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto max-w-6xl px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="text-sm text-blue-600 font-semibold mb-2">FEATURED PRODUCT</div>
+                    <h2 class="text-4xl font-bold mb-4">HousePoints: Making Chores Fun</h2>
+                    <p class="text-lg text-gray-600 mb-6">Transform your family's daily routines with our innovative chore management system. Currently in successful beta testing with remarkable results.</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <span class="icon-check_circle text-green-500 mr-3 mt-1"></span>
+                            <span>Points-based rewards system that motivates kids</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="icon-check_circle text-green-500 mr-3 mt-1"></span>
+                            <span>Chore trading marketplace between siblings</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="icon-check_circle text-green-500 mr-3 mt-1"></span>
+                            <span>Wall-mounted kiosk for family coordination</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="icon-check_circle text-green-500 mr-3 mt-1"></span>
+                            <span>Mobile apps for on-the-go management</span>
+                        </li>
+                    </ul>
+                    <a href="/products/housepoints" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">Learn More About HousePoints</a>
+                </div>
+                <div class="relative">
+                    <div class="bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg p-8 text-white">
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-6">
+                            <h3 class="text-2xl font-bold mb-4">Beta Testing Results</h3>
+                            <div class="space-y-3">
+                                <div class="flex justify-between">
+                                    <span>Task Completion Rate</span>
+                                    <span class="font-bold">+73%</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Family Conflicts</span>
+                                    <span class="font-bold">-85%</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Kid Engagement</span>
+                                    <span class="font-bold">88%</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Parent Satisfaction</span>
+                                    <span class="font-bold">91%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Client Success Stories -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto max-w-6xl px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Client Success Stories</h2>
+                <p class="text-xl text-gray-600">Real results from real partnerships</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <span class="icon-format_quote text-4xl text-blue-600 mr-4"></span>
+                        <div>
+                            <div class="font-semibold">Professional Services Firm</div>
+                            <div class="text-sm text-gray-600">Cloud Migration Project</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"JunoAI Innovations guided us through a complex cloud migration that reduced our infrastructure costs by 40% while improving system performance. Their expertise and strategic approach made all the difference."</p>
+                    <div class="text-sm text-gray-600">- IT Director</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <span class="icon-format_quote text-4xl text-blue-600 mr-4"></span>
+                        <div>
+                            <div class="font-semibold">Beta Testing Family</div>
+                            <div class="text-sm text-gray-600">HousePoints Early Adopter</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"HousePoints completely changed our family dynamics. The kids actually compete to do chores now, and we've eliminated the daily battles over responsibilities. It's been transformative."</p>
+                    <div class="text-sm text-gray-600">- Parent of Three</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Technology Stack -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto max-w-6xl px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Technology Expertise</h2>
+                <p class="text-xl text-gray-600">Modern solutions built on proven platforms</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-3xl mb-2">☁️</div>
+                    <div class="font-semibold">Cloud Platforms</div>
+                    <div class="text-sm text-gray-600 mt-2">AWS, Azure, GCP</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-3xl mb-2">🔒</div>
+                    <div class="font-semibold">Security</div>
+                    <div class="text-sm text-gray-600 mt-2">Zero Trust, SIEM, IAM</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-3xl mb-2">⚙️</div>
+                    <div class="font-semibold">DevOps</div>
+                    <div class="text-sm text-gray-600 mt-2">CI/CD, K8s, Docker</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-3xl mb-2">📊</div>
+                    <div class="font-semibold">Data & AI</div>
+                    <div class="text-sm text-gray-600 mt-2">Analytics, ML, LLMs</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+        <div class="container mx-auto max-w-6xl px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">Ready to Transform Your Technology?</h2>
+            <p class="text-xl mb-8">Let's discuss how we can help achieve your business objectives</p>
+            <div class="flex justify-center gap-4">
+                <a href="/contact" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Schedule Consultation</a>
+                <a href="/products" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Explore Services</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Recent Blog Posts -->
+    {{ if ne .Site.Params.showBlog false }}
+    <section class="py-16 bg-white">
+        <div class="mx-auto max-w-6xl px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Latest Insights</h2>
+                <p class="text-xl text-gray-600">Technology trends and best practices</p>
+            </div>
+            {{- partial "recent.html" . -}}
+            <div class="text-center mt-8">
+                <a href="/blog" class="text-blue-600 hover:text-blue-700 font-semibold">View All Articles →</a>
+            </div>
+        </div>
+    </section>
+    {{ end }}
+    
+    {{- partial "footer.html" . -}}
+    
+    <script src="{{ "/js/swiper-bundle.min.js" | relURL }}"></script>
+    <script>
+        var mySwiper = new Swiper(".swiper-container", {
+            direction: "horizontal",
+            loop: true,
+            speed: 550,
+            autoplay: {
+                delay: 6000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
