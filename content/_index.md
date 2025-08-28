@@ -1,7 +1,7 @@
 +++
 author = "JunoAI Innovations"
 title = "JunoAI Innovations | Technology Consulting & Software Development"
-description = "Strategic technology consulting and innovative software solutions. Developers of HousePoints family management platform."
+description = "Strategic technology consulting and innovative software solutions. Developers of HousePoints family chore management system."
 +++
 
 ## Technology Solutions That Drive Business Forward
@@ -16,8 +16,8 @@ Strategic guidance on infrastructure optimization, cloud architecture, security 
 **Custom Software Development**  
 Purpose-built applications designed to address specific operational challenges. We leverage modern architectures and proven methodologies to deliver scalable, maintainable solutions that grow with your business.
 
-**Product Innovation**  
-As developers of the HousePoints platform, we demonstrate our commitment to creating innovative software products that solve real-world problems. Our product development capabilities span from concept to market launch.
+**Product Development**  
+As developers of HousePoints, our family chore management system, we demonstrate our commitment to creating practical software that solves real problems. Our development approach focuses on user needs and iterative improvement.
 
 ### Why Organizations Choose JunoAI Innovations
 
@@ -33,9 +33,9 @@ Our track record demonstrates consistent delivery of projects on time and within
 **Ongoing Partnership**  
 We remain engaged beyond implementation, providing support and guidance as your technology needs evolve.
 
-### Featured: HousePoints Platform
+### Featured: HousePoints
 
-HousePoints exemplifies our product innovation capabilities. This sophisticated family task management system combines behavioral psychology with gamification to transform household coordination. Currently in beta testing, HousePoints showcases our ability to identify market opportunities and develop compelling software solutions.
+HousePoints is our family chore management system that helps parents and kids track household tasks through a points-based reward system. Using gamification and achievement systems, it makes chore completion engaging while teaching responsibility. Currently running successfully in beta testing with our founding family.
 
 ### Begin Your Digital Transformation
 

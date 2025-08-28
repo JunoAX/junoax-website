@@ -24,8 +24,8 @@ Our consulting practice focuses on helping small and medium businesses optimize 
 ### Software Development
 We develop custom software solutions tailored to specific industry needs. Our development methodology combines agile practices with rigorous quality assurance to deliver reliable, scalable applications. From web applications to enterprise integrations, we build technology that performs.
 
-### HousePoints Platform
-HousePoints represents our commitment to innovation in consumer software. This comprehensive family task management system transforms household coordination through intelligent gamification and behavioral psychology principles. Currently in advanced beta testing, HousePoints demonstrates our capability to conceptualize, develop, and bring to market sophisticated software products.
+### HousePoints
+HousePoints is our family chore management system designed to help parents and kids track household tasks using a points-based reward system. Through gamification features like achievements, streaks, and chore trading, it makes daily responsibilities engaging for children. Currently in active use by our beta testing family, HousePoints demonstrates our ability to create practical software solutions.
 
 ## Our Approach
 
