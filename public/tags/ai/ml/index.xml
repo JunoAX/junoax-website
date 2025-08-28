@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI/ML on JunoAI Innovations</title>
+    <link>http://localhost:1313/tags/ai/ml/</link>
+    <description>Recent content in AI/ML on JunoAI Innovations</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai/ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent Experience: The Next Evolution in AI/ML</title>
+      <link>http://localhost:1313/blog/agent-experience-the-next-evolution-in-aiml/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/agent-experience-the-next-evolution-in-aiml/</guid>
+      <description>&lt;h2 id=&#34;agent-experience-the-next-evolution-in-aiml&#34;&gt;Agent Experience: The Next Evolution in AI/ML&lt;/h2&gt;&#xA;&lt;p&gt;Artificial Intelligence (AI) and Machine Learning (ML) have long prioritized &lt;strong&gt;User Experience (UX)&lt;/strong&gt; and &lt;strong&gt;Developer Experience (DX)&lt;/strong&gt; to improve usability and accessibility. However, a new focus is emerging: &lt;strong&gt;Agent Experience (AX)&lt;/strong&gt;—the way autonomous AI agents interact, learn, and optimize their workflows within intelligent systems.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-understanding-agent-experience-ax&#34;&gt;&lt;strong&gt;1. Understanding Agent Experience (AX)&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Agent Experience (AX) refers to the usability, performance, and adaptability of AI agents in complex ecosystems. Unlike UX, which is centered around human users, &lt;strong&gt;AX is about how AI systems optimize decision-making, collaboration, and learning within automated environments&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

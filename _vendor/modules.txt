@@ -1,0 +1,2 @@
+# github.com/opera7133/tella v0.0.0-20250130114308-e9fcaf888ad3
+# github.com/thkukuk/hugo-photoswipe5-gallery v0.0.0-20250127074612-650ed208f423

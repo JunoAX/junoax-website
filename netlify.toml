@@ -1,35 +1,22 @@
 [build]
-publish = "public"
-command = "git submodule update --remote --merge && npm run build"
+  command = "npm run build"
+  publish = ".next"
 
-[build.processing]
-    skip_processing = true
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
-[context.production.environment]
-HUGO_VERSION = "0.143.1"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-GO_VERSION = "1.23"
-NODE_VERSION = "23"
+[build.environment]
+  NODE_VERSION = "20"
 
-[context.split1]
-command = "npm run build"
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
 
-[context.split1.environment]
-HUGO_VERSION = "0.143.1"
-HUGO_ENV = "production"
-
-[context.deploy-preview]
-command = "npm run build"
-
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.143.1"
-
-[context.branch-deploy]
-command = "npm run build"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.143.1"
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
