@@ -23,7 +23,7 @@ const blogPosts = [
     title: "Agent Experience: The Next Evolution in AI/ML",
     date: "2024-07-15",
     author: "Tom Gamull",
-    image: "/images/ai-network-graphic.png",
+    image: "/images/tech-stack.svg",
     description: "Exploring how AI agents are transforming user experience and developer workflows in modern applications.",
     categories: ["AI/ML", "Developer Experience"],
     readTime: "8 min read"
@@ -33,7 +33,7 @@ const blogPosts = [
     title: "The Future of AI Automation in Business",
     date: "2024-06-20",
     author: "Tom Gamull", 
-    image: "/images/future-ai-business.jpg",
+    image: "/images/automation-tools.svg",
     description: "How AI automation is reshaping business operations and what leaders need to know.",
     categories: ["AI", "Business Transformation"],
     readTime: "6 min read"
