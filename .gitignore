@@ -21,9 +21,14 @@ _testmain.go
 
 _vendor/
 
+# bin and obj folders
+bin/
+obj/
+
 # Themes (if you use Git submodules)
 themes/*/
 !themes/tella/   # Keep your Tella theme (if modified)
+!themes/hugo-photoswipe5-gallery/   # Keep your Hugo Photoswipe5 Gallery theme (if modified)
 
 # Created by https://www.toptal.com/developers/gitignore/api/remix+netlify,hugo,go,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=remix+netlify,hugo,go,node
