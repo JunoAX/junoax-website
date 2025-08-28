@@ -1,0 +1,52 @@
+{{ define "meta_tags" }}
+
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="{{ .Title }}">
+
+{{ if .Params.image }}
+{{ with .Params.image }}
+<meta property="og:image" content="{{ . | absURL }}">
+{{ end }}
+{{ else }}
+<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image | absURL }}">
+{{ end }}
+
+{{- if .Description }}
+<meta name="description" content="{{ .Description }}" />
+<meta property="og:description" content="{{ .Description }}" />
+<meta property="twitter:description" content="{{ .Description }}" />
+{{- else if .Summary }}
+<meta name="description" content="{{ .Summary }}" />
+<meta property="og:description" content="{{ .Summary }}" />
+<meta property="twitter:description" content="{{ .Summary }}" />
+{{- else if .Site.Params.description }}
+<meta name="description" content="{{ .Site.Params.description }}" />
+<meta property="og:description" content="{{ .Site.Params.description }}" />
+<meta property="twitter:description" content="{{ .Site.Params.description }}" />
+{{- end }}
+
+{{- end }}
+{{ define "main" }}
+<div>
+  <div class="text-center py-12 px-6 mt-12">
+    <h1 class="text-5xl font-bold capitalize">{{ .Title }}</h1>
+    {{ if .Description }}
+    <p class="text-lg mt-4">{{ .Description }}</p>
+    {{ end }}
+  </div>
+  <div class="mx-auto max-w-3xl mt-12 px-8">
+    {{/* Sort blog posts by date in descending order (newest first) */}}
+    {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+    {{ range $paginator.Pages }}
+    <a href="{{ .Permalink }}">
+      <div>{{ partial "summary.html" . }}</div>
+    </a>
+    {{ end }}
+  </div>
+  {{ partial "paginator.html" . }}
+</div>
+{{ end }}

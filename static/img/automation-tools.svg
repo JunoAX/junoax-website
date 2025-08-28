@@ -1,0 +1,64 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F9FAFB"/>
+  
+  <!-- Header -->
+  <text x="600" y="80" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#1E3A8A">Business Automation Workflow</text>
+  
+  <!-- Workflow boxes -->
+  <!-- Box 1 -->
+  <g transform="translate(150, 180)">
+    <rect width="200" height="100" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#1E40AF">Email Received</text>
+    <text x="100" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">Gmail Trigger</text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <path d="M 350 230 L 450 230" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Box 2 -->
+  <g transform="translate(450, 180)">
+    <rect width="200" height="100" rx="8" fill="#FEF3C7" stroke="#FCD34D" stroke-width="2"/>
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#A16207">Parse Data</text>
+    <text x="100" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">Extract Info</text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <path d="M 650 230 L 750 230" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Box 3 -->
+  <g transform="translate(750, 180)">
+    <rect width="200" height="100" rx="8" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#065F46">Update CRM</text>
+    <text x="100" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">Create Record</text>
+  </g>
+  
+  <!-- Second row -->
+  <!-- Box 4 -->
+  <g transform="translate(300, 350)">
+    <rect width="200" height="100" rx="8" fill="#FCE7F3" stroke="#EC4899" stroke-width="2"/>
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#831843">Send Slack</text>
+    <text x="100" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">Notify Team</text>
+  </g>
+  
+  <!-- Arrow 3 -->
+  <path d="M 850 280 L 850 350 L 500 350" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Box 5 -->
+  <g transform="translate(600, 350)">
+    <rect width="200" height="100" rx="8" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#5B21B6">Create Task</text>
+    <text x="100" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">Asana/Trello</text>
+  </g>
+  
+  <!-- Arrow 4 -->
+  <path d="M 850 280 L 850 350 L 800 350" stroke="#6B7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#6B7280"/>
+    </marker>
+  </defs>
+  
+  <text x="600" y="530" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#6B7280">Automate repetitive tasks and focus on what matters</text>
+</svg>
