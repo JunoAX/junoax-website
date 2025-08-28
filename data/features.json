@@ -1,17 +1,17 @@
 [
   {
-    "title": "Strategic Technology Consulting",
-    "description": "Enterprise-level expertise in infrastructure optimization, cloud architecture, and digital transformation delivered with a focus on measurable business outcomes.",
+    "title": "Technology Consulting",
+    "description": "Cloud architecture, security frameworks, and infrastructure optimization to align IT with business objectives.",
     "icon": "icon-desktop_windows"
   },
   {
-    "title": "Product Development",
-    "description": "Creating practical software solutions like HousePoints, our family chore management system that uses gamification to make household tasks engaging for kids.",
-    "icon": "icon-lightbulb_outline"
+    "title": "Custom Development",
+    "description": "Purpose-built applications using modern architectures to solve specific business challenges.",
+    "icon": "icon-code"
   },
   {
-    "title": "Custom Software Development",
-    "description": "Purpose-built applications leveraging modern architectures and proven methodologies to address specific operational challenges and drive competitive advantage.",
-    "icon": "icon-person"
+    "title": "HousePoints Platform",
+    "description": "Our family chore management system - currently in beta testing with excellent results.",
+    "icon": "icon-home"
   }
 ]
